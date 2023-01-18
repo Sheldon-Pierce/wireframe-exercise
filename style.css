@@ -1,5 +1,7 @@
 header {
-    margin: 30px;
+    width: 100%;
+    margin: 0px;
+    border: 0px;
 }
 
 ul{
@@ -24,6 +26,7 @@ ul{
 .hero {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
     
 }
 
@@ -35,6 +38,7 @@ ul{
     display: flex;
     justify-content: center;
     margin-left: 30px;
+    margin-top: 30px;
     
 }
 
@@ -46,7 +50,8 @@ ul{
 .featured {
     display: flex;
     justify-content: center;
-    margin: 0% 9.5%;
+    margin-top: 30px;
+    /* margin: 0% 9.5%; */
     /* margin-left: 30px; */
 }
 
@@ -63,7 +68,7 @@ ul{
 
 .featured section {
     width: 450px;
-    height: 370px;
+    height: 355px;
     overflow: auto;
     /* display: flex; */
     /* justify-content: left; */
@@ -92,6 +97,7 @@ button:hover {
 footer {
     background-color: rgb(73, 73, 73);
     height: 100px;
-    margin: 30px;
+    width: 100%;
+    margin-top: 25px;
     color: transparent;
 }
